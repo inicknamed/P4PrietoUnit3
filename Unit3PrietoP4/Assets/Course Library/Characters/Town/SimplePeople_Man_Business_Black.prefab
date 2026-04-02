@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3540722099106851594}
   m_Layer: 0
   m_Name: SimplePeople_Man_Business_Black
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,8 +130,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9de473add4b85a4d8057081de8ff4ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  isOnGround: 1
   jumpForce: 10
-  gravityModifier: 0
+  gravityModifier: 1.75
+  gameOver: 0
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
