@@ -50,12 +50,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.5967381, z: 1}
-  m_Center: {x: 0, y: 1.0061336, z: 0}
+  m_Size: {x: 1, y: 1.8711967, z: 1}
+  m_Center: {x: 0, y: 0.86890435, z: 0}
 --- !u!54 &4284950791203902292
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fef41bbe05f6204e87fb171100db44a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveLeft
-  speed: 15
+  speed: 30
 --- !u!1 &181668
 GameObject:
   m_ObjectHideFlags: 0
